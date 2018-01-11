@@ -1,0 +1,52 @@
+@import "compass/reset";
+@import "compass/css3";
+
+// basic page styles
+body {
+	  text-align: center;
+	  font: 1em/1.5 'Montserrat', 'sans-serif';
+	  color: #333;
+}
+ 
+a {
+    text-decoration: none;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2.25em;
+    padding: 0 1em;
+}
+
+// Header
+.header {
+		padding: 10em 0 14em;
+
+		h1 {
+			font-style: bold;
+		}
+}
+
+.avatar {
+    @include box-shadow(0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333);
+    @include border-radius(50px); // half the avatar size
+    width: 100px;
+    height: 100px;
+}
+
+.carousel {
+    position: relative;
+}
+ 
+.shots-container {
+    width: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    padding: 1em 0;
+}

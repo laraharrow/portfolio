@@ -6,29 +6,53 @@
 		<!--[if IE]>
     	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-  	<link rel="stylesheet" href="style.css">
+  	<link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   </head>
 
   <body>
-    <header>
+		<nav class="top">
 			<a href="index.html">Home</a>
 			<a href="portfolio.html">Portfolio</a>
 			<a href="abaut.html">About</a>                
 			<a href="blog.html">Blog</a>
       <a href="contact.html">contact</a>
-	    <!-- <div class='social'>   
-	      <a id="github" href="https://github.com/laraismael1"> <img id="github" src="images/github_white.png"></a>
-	      <a id="linkedin" href="www.linkedin.com/in/lara-ismael"><img id="linkedin" src="images/Linkedin.png"></a>
-	    </div> -->
-    </header>
-    <div class="main">
-    	<p>everything else goes here</p>
-    </div>	
-    <footer>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="portfolio.html">About</a>                
-				<a href="portfolio.html">Blog</a>
-        <a href="portfolio.html">contact</a>                
-    </footer> 
+	    <div class='social'>   
+	      <a id="github" href="https://github.com/laraismael1"> <img id="github" src="images/github_white.png" width="30px" height="30px"></a>
+	      <a id="linkedin" href="www.linkedin.com/in/lara-ismael"><img id="linkedin" src="images/Linkedin.png" width="30px" height="30px"></a>
+	    </div>
+	  </nav> 
+
+    <header class="header">
+    	<img src="images/lara.png" width="100" height="100" class="avatar"/>
+    	<h1>Hello, I'm Lara Harrow. <br/>I'm a software engineer and designer living in the Bay Area.</h1>
+		</header>	
+
+		<section class="content">
+	    <h1 class="dribbble">Latest Work</h1>
+	 
+	    <div class="carousel">
+        <div class="shots-container">
+          <ul class="shots">
+            <li><a href="https://www.laraismael.com/"><img src="images/jewelry.com.png" width="250px" height="250px" alt="jewelry"/></a></li>
+            <li><a href="https://immense-wave-91772.herokuapp.com/index.html">
+            <img src="images/html.basic.png" width="250px" height="250px" alt="html"/></a></li>
+          </ul>
+        </div>
+        <span class="mask mask-right"></span>
+        <span class="mask mask-left"></span>
+	    </div>
+	 
+	    <p>&larr; scroll to view &rarr;</p>
+		</section>
+   
+    <nav class="bottom">
+			<a href="portfolio.html">Portfolio</a>
+			<a href="abaut.html">About</a>                
+			<a href="blog.html">Blog</a>
+      <a href="contact.html">contact</a>          
+    </nav> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="javascripts/dribbble.js"></script>
   </body>
 </html>
