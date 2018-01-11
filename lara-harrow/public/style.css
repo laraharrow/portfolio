@@ -1,0 +1,120 @@
+
+body {
+    background: #e0e2e4;
+    color: #484f4f;
+    padding: 10px;
+    font-family: font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial;
+}
+/*header {
+    background-color: #333
+    height:50px;
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+}*/
+
+/* top navigation menu */
+
+.top {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*.top li {
+    float: left;
+}*/
+
+.top li a {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.social li {
+  float: right;
+  padding-top: 30px;
+  transition: opacity .3s;
+  padding: 0.5px;
+  width: 30px; 
+  height: 30px;
+}
+
+nav.top li a:hover {
+  background-color: #b2b2b2;
+}
+
+/*#github{
+  
+}
+
+#linkedin{
+  padding: 0.5px;
+  width: 30px; 
+  height: 30px;
+}*/
+/* bottom navigation menu */
+
+.bottom {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #333;
+  background-color: #b2b2b2;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+nav.bottom  li {
+  float: left;
+  text-align:center;
+
+}
+
+nav.bottom  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav.bottom  li a:hover {
+    background-color: #333;
+}
+
+/* main container area beneath menu */
+main {
+    background: rgb(245, 238, 219);
+    display: flex;
+}
+.content {
+    flex: 1;
+    padding: 15px;
+}
+
+/* portfolio styles */
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+} 
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
+}
