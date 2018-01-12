@@ -63,41 +63,82 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 5, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 body {
   text-align: center;
   font: 1em/1.5 'Montserrat', 'sans-serif';
   color: #333;
+  background-color: #D9E0EA;
 }
 
-/* line 11, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 19, ../sass/style.scss */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* line 20, ../sass/style.scss */
+/* line 24, ../sass/style.scss */
 h1 {
   font-family: 'Montserrat', 'sans-serif';
   font-size: 2.25em;
   padding: 0 1em;
 }
 
-/* line 27, ../sass/style.scss */
-.header {
-  padding: 10em 0 14em;
-}
 /* line 30, ../sass/style.scss */
+h3 {
+  font-family: 'Montserrat', 'sans-serif';
+  padding-top: 20px;
+}
+
+/* line 35, ../sass/style.scss */
+.social {
+  background-color: #26323D;
+  margin: 0px;
+  height: 90px;
+}
+/* line 40, ../sass/style.scss */
+.social li {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  margin-top: -75px;
+}
+/* line 45, ../sass/style.scss */
+.social li:hover {
+  -moz-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
+}
+/* line 49, ../sass/style.scss */
+.social li a {
+  display: block;
+  color: inherit;
+  padding: 5em 5em 5em;
+  width: 6em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 63, ../sass/style.scss */
+.header {
+  padding: 5em 0 5em;
+}
+/* line 66, ../sass/style.scss */
 .header h1 {
   font-style: bold;
 }
 
-/* line 35, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 .avatar {
   -moz-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
   -webkit-box-shadow: 0 0 0px 3px #fff, 0 0 0 4px #ccc, 0 4px 6px #333;
@@ -109,16 +150,40 @@ h1 {
   height: 100px;
 }
 
-/* line 42, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 .carousel {
   position: relative;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 82, ../sass/style.scss */
 .shots-container {
   width: 100%;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
   position: relative;
   padding: 1em 0;
+}
+
+/* line 88, ../sass/style.scss */
+.shots {
+  overflow: hidden;
+  margin: 0;
+  padding: 0 2%;
+}
+/* line 93, ../sass/style.scss */
+.shots li {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 400px;
+  height: 300px;
+  margin: 0 10px;
+  padding: 10px;
+}
+/* line 100, ../sass/style.scss */
+.shots li:hover {
+  -moz-transform: scale(1.25, 1.25);
+  -ms-transform: scale(1.25, 1.25);
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.25, 1.25);
 }
