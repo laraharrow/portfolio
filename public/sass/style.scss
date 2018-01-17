@@ -1,0 +1,159 @@
+@import "compass/reset";
+@import "compass/css3";
+
+// basic page styles
+// light gray #D9E0EA
+// dark grey #26323D
+
+body {
+  text-align: center;
+  font: 1em/1.5 'Montserrat', 'sans-serif';
+  color: #333;
+  background-color: white;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 2.25em;
+  padding: 0 1em;
+  color: #323437;
+}
+
+h2 {
+  font-family: 'Montserrat', 'sans-serif';
+  color: #5C5F63;
+	font-size: 1.5em;
+  padding-top: 20px;
+  color: #323437;
+}
+
+#name {
+	margin-bottom: 70px;
+	margin-left: 50px;
+}
+
+.profile {
+	overflow: auto;
+
+	h1 {
+		margin-top: 200px;
+	}
+
+	.l {
+		float: left;
+		padding-left: 140px;
+	}
+
+	.r {
+		float: right;
+		padding-right: 145px;
+	}
+}
+
+.subtitle {
+	#l {
+		color: #9A9C9E;
+		float: left;
+		margin-top: -300px;
+		padding-left: 95px;
+	}
+
+	#r {
+		color: #9A9C9E;
+		float: right;
+		margin-top: -300px;
+		padding-right: 70px;
+	}
+}
+
+.social {
+	background-color: #323437;
+	margin: 0px;
+  height: 90px;
+
+	li {
+		position: relative;
+		@include inline-block();
+		margin-top: -75px;
+
+		&:hover {
+      @include scale(1.25);
+    }
+
+		a {
+      display: block;
+      color: inherit;
+      padding: 5em 5em 5em;
+      width: 6em;
+      // allow truncation if needed
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .contact {
+  	// display: block;
+   //  color: inherit;
+   //  float: right;
+   background-color: white;
+  }  
+}
+
+// Header
+.header {
+	padding: 5em 0 5em;
+
+	h1 {
+		font-style: bold;
+	}
+}
+
+.carousel {
+  position: relative;
+}
+ 
+.shots-container {
+  width: 100%;
+  position: relative;
+  padding: 1em 0;
+}
+
+.shots {
+  overflow: hidden;
+  margin: 0;
+  padding: 0 2%;
+
+  li {
+	  @include inline-block();
+    width: 400px;
+    height: 300px;
+    margin: 0 10px;
+    padding: 10px;
+
+    &:hover {
+  		@include scale(1.25);
+		}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
