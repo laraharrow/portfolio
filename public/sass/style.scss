@@ -33,9 +33,46 @@ h2 {
   color: #5C5F63;
 	font-size: 1.5em;
   padding-top: 20px;
-  color: #323437;
 }
 
+// nav bar
+.social {
+  background-color: #323437;
+  margin: 0px;
+  height: 90px;
+
+  li {
+    position: relative;
+    @include inline-block();
+    margin-top: -75px;
+
+    &:hover {
+      @include scale(1.25);
+    }
+
+    a {
+      display: block;
+      color: inherit;
+      padding: 5em 5em 5em;
+      width: 6em;
+      // allow truncation if needed
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}  
+
+// Header
+.header {
+  padding: 5em 0 5em;
+
+  h1 {
+    font-style: bold;
+  }
+}
+
+// welccome
 #name {
 	margin-bottom: 70px;
 	margin-left: 50px;
@@ -75,51 +112,33 @@ h2 {
 	}
 }
 
-.social {
-	background-color: #323437;
-	margin: 0px;
-  height: 90px;
-
-	li {
-		position: relative;
-		@include inline-block();
-		margin-top: -75px;
-
-		&:hover {
-      @include scale(1.25);
-    }
-
-		a {
-      display: block;
-      color: inherit;
-      padding: 5em 5em 5em;
-      width: 6em;
-      // allow truncation if needed
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: ellipsis;
-    }
-  }
-
-  .contact {
-  	// display: block;
-   //  color: inherit;
-   //  float: right;
-   background-color: white;
-  }  
+#intro {
+  padding-bottom: 50px;  
 }
 
-// Header
-.header {
-	padding: 5em 0 5em;
+// comments
+.comments {
+  margin-bottom: 150px;
 
-	h1 {
-		font-style: bold;
-	}
+  p {
+    font-family: 'Montserrat', 'sans-serif';
+    color: #9A9C9E;
+  }
+
+  #jon {
+    float: left;
+    padding-left: 140px;
+  }
+
+  #lam {
+    float: right;
+    padding-right: 145px;
+  }
 }
 
 .carousel {
   position: relative;
+  margin-top: 100px;
 }
  
 .shots-container {
