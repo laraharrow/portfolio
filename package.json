@@ -1,19 +1,23 @@
 {
-  "name": "lara-harrow",
-  "description": "programer portfolio",
-  "version": "1.0.0",
-  "engines": {
-    "node": "6.11.2"
-  },
+  "name": "lara-harrow-portfolio",
+  "author": "Lara Harrow",
   "main": "index.js",
+  "version": "1.0.0",
+  "description": "programer portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laraismael1/portfolio.git"
+  },
+  "license": "MIT",
+  "devDependencies": {},
   "dependencies": {
     "express": "^4.16.2"
   },
-  "devDependencies": {},
+  "engines": {
+    "node": "6.11.2"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Lara Harrow",
-  "license": "ISC"
+  }
 }

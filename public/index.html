@@ -2,17 +2,125 @@
 <html>
   <head>
   	<title>Lara Harrow Portfolio</title>
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!--[if IE]>
-    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   	<link href="stylesheets/style.css" type="text/css" rel="stylesheet" >
   	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
   </head>
 
   <body>
+
+    <nav class="navbar navbar-inverse container-fluid navbar-fixed-top">
+      <div>
+      <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+          <a class="navbar-brand" href="http://modernpathshala.com">Bootstrap Demo</a>
+        </div>
+      
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="Home.html">
+            <span class="glyphicon glyphicon-home"></span>
+            Home</a></li>
+            <li><a href="#">
+            <span class="glyphicon glyphicon-king"></span>
+            About</a></li>
+          </ul>
+
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group-sm">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-success btn-sm">Go!</button>
+                </span>
+              </div>
+            </div>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><span class="glyphicon 
+              glyphicon-log-in"></span> Login</a></li>
+              <li><a href="#"><span class="glyphicon 
+              glyphicon-user"></span> Register</a></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </div> <!-- /.container-fluid -->
+    </nav>
+
+    <header class="container">
+      <h2>Header</h2>
+    </header>
+    
+    <section class="container" >
+      <div class="row">
+        <div class="col-md-3 leftNav">
+          Left Navigation
+        </div>
+        <div class="col-md-6 content">
+          Content Area
+        </div>
+        <div class="col-md-3 reletedContent">
+          Relate content
+        </div>
+      </div>
+    </section>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h2 class="panel-title">Column Offset using Bootstrap</h2>
+      </div>
+
+      <div class="panel-body">
+        This article describes the art of creating the responsive design 
+        layout which can render well on different device sizes.
+      </div>
+
+      <div class="panel-footer">
+        <div class="row">
+          <div class="col-xs-9">
+            <p>Put tags and view count</p>
+          </div>
+          <div class="col-xs-3">
+            <a href="#">Read More..</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="jumbotron">
+      <h2>Bootstrap</h2>
+      <img class="img-responsive img-thumbnail" 
+
+      src="Content/Images/article1.png" />
+      <p class="text-justify">Bootstrap is HTML, 
+      CSS and JavaScript framework for developing responsive, 
+        mobile first websites. Bootstrap makes front-end web development faster and easier. 
+       It's made for folks of all skill levels, devices of all shapes, 
+       and projects of all sizes.</p>
+      <p><a class="btn btn-success btn-default" 
+
+      href="#">Start Learning</a></p>
+    </div>
+
+    <footer class="container">
+      <h2>Footer</h2>
+    </footer>
+    
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+</body>
+<!-- 
 		<nav class="top">                
 			<ul class="social">
     		<li><a href="https://medium.com/@laraismael1"><img src="images/medium-logo.png" ></a></li>
@@ -27,8 +135,7 @@
     	
     	<div class="profile">
 				<h1 class="l">&#10035; desgner &#10035;</h1>
-				<!-- &#xab; &#xbb; -->
-					<img id="pic" src="images/designerProfile.jpg" width="500" height="500"/>
+				<img id="pic" src="images/designerProfile.jpg" width="500" height="500"/>
 				<h1 class="r">&lt; coder &gt;</h1>
     	</div>	
 
@@ -99,6 +206,9 @@
     </footer>
 
     <h1>perfect combo of creative designer and programer</h1>
+
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script> -->
 
   </body>
 </html>
