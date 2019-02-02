@@ -3,7 +3,7 @@
 
 
 ## Getting Started
-> git start 
+> git start
 *to start the server with nodeJS*
 
 > compass watch
@@ -11,3 +11,4 @@
 
 
 ###### This repo is constantly being updated with new work
+*This code is automatic deployed with Heroku when code gets pushed to github.* 
